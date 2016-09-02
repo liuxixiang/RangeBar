@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RangeBar">
+        <attr name="gbs_paddingLeft" format="dimension|reference" />
+        <attr name="gbs_paddingTop" format="dimension|reference" />
+        <attr name="gbs_paddingRight" format="dimension|reference" />
+        <attr name="gbs_paddingBottom" format="dimension|reference" />
+        <attr name="gbs_anchor_height" format="dimension|reference" />
+        <attr name="gbs_anchor_width" format="dimension|reference" />
+        <attr name="gbs_placeholder_height" format="dimension|reference" />
+        <attr name="gbs_placeholder_width" format="dimension|reference" />
+        <attr name="gbs_type" format="integer|reference" />
+        <attr name="gbs_textSize" format="dimension|reference"/>
+        <attr name="gbs_textColor" format="color|reference"/>
+        <attr name="gbs_rightColor" format="color|reference"/>
+        <attr name="gbs_leftColor" format="color|reference"/>
+        <attr name="gbs_text_margin" format="dimension|reference" />
+
+    </declare-styleable>
+</resources>

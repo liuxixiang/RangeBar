@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <com.lxh.rangebar.rangebar.RangeBar
+        android:id="@+id/rangeBar"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        app:gbs_anchor_height="10dp"
+        app:gbs_anchor_width="10dp"
+        app:gbs_paddingBottom="65dp"
+        app:gbs_placeholder_width="20dp"
+        app:gbs_placeholder_height="20dp"
+        app:gbs_paddingLeft="10dp"
+        app:gbs_paddingRight="10dp"
+        app:gbs_leftColor="@color/colorAccent"
+        app:gbs_rightColor="@color/colorPrimary"
+        app:gbs_paddingTop="25dp"
+        app:gbs_textSize="14sp"
+        app:gbs_text_margin="10dp"
+        app:gbs_textColor="#666666" />
+
+</RelativeLayout>
